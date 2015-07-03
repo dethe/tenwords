@@ -2,13 +2,44 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<title>TITLE</title>
-	<link rel="stylesheet" href="css/reset.css" />
-	<link rel="stylesheet" href="css/app.css" />
+	<title>TWAAS: Ten Words as a Service</title>
+	<style>
+		section{
+			width: 320px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		h1, h2{
+			text-align: center;
+		}
+		#thewords{
+			font-family: serif;
+			font-size: 32px;
+			margin-bottom: 1em;
+		}
+		p{
+			line-height: 1.1;
+			margin-bottom: 0;
+			margin-top: .3em;
+		}
+		button{
+			display: block;
+			font-size: 32px;
+			width: 8em;
+			border-radius: 10px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	</style>
 </head>
 <body>
-	<h1>TITLE</h1>
-	<script src="js/dom.js"></script>
-	<script src="js/app.js"></script>
+    <section>
+		<h1>TWASS</h1>
+		<h2>Ten Words As A Service</h2>
+		<div id="thewords">
+		</div>
+		<button>Ten More</button>
+	</section>
+	<script src="app.js"></script>
 </body>
 </html>

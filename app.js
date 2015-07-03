@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 var words = ['a',
  'aalii',
  'aardwolf',
@@ -65559,4 +65557,4 @@ function putTheWordsInTheThing(){
 }
 
 document.querySelector('button').addEventListener('click', putTheWordsInTheThing, false);
-putTheWordsInTheThing
+putTheWordsInTheThing()
